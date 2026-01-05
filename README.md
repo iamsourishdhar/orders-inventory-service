@@ -11,9 +11,9 @@ Architecture Overview:
         POST /orders/{id}/cancel
         GET /inventory/{productId}
 
-For implementing logging, logback has been used
+2. For implementing logging, logback has been used.
 
-2. For storing the transactional data postgres has been used.
+3. For storing the transactional data postgres has been used.
 
 
 Design decisions:
