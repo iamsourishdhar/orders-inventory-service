@@ -5,11 +5,11 @@ Architecture Overview:
 
 1. Two controllers created, OrderController,InventoryController to expose the API for CRUD operations
 
-POST /orders
-GET /orders/{id}
-POST /orders/{id}/confirm
-POST /orders/{id}/cancel
-GET /inventory/{productId}
+        POST /orders
+        GET /orders/{id}
+        POST /orders/{id}/confirm
+        POST /orders/{id}/cancel
+        GET /inventory/{productId}
 
 For implementing logging, logback has been used
 
