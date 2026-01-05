@@ -1,4 +1,4 @@
-Co-Pilot has been used in step by step manner to create this microservice logically. Please find the main promts used to build the component. After every promt , the spring boot component has been validated locally. 
+Co-Pilot has been used in step by step manner to create this microservice logically. Please find the main promts used to build the component.
 1. Build a Spring Boot microservice with Java 17 and Maven 3.8.8 that manages Orders and Inventory with the following characteristics:
    1. Core Capabilities
       2. Order Lifecycle
@@ -29,5 +29,8 @@ Co-Pilot has been used in step by step manner to create this microservice logica
 3. Add a Dockerfile with docker-compose.yml for app + DB. And the app must run in one command.
 4. Add Mockito Junit test cases for the orders-inventory-service 
 5. Add JWT authentication using spring security for POST endpoints of OrderController.java, InventoryController.java on top of it
-6. Add logging for orders-inventory-service using logback
+6. Add logging for orders-inventory-service using logback.
 7. Create DB schema diagram based on the following JDO classes.
+8. Implement concurrency using completable future, @EnableAsync in orders-inventory-service project for the OrderController.create API
+
+After generating the code using Copilot, the code has been validated locally. Few fixes required to be done in pom.xml, controller layer to make sure the build is successful.
